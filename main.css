@@ -1,0 +1,93 @@
+
+.banner {
+    position: relative;
+    background: url(img/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    padding-top: 70px;
+    width: 80%;
+    margin: 0px 140px;
+}
+.banner-title {
+    color: white;
+    display: flex;
+    justify-content: left;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 48px;
+    font-family: 'Russo One', sans-serif;
+}
+.banner-text {
+    color: white;
+    display: flex;
+    justify-content: left;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+      
+}
+.main-inf {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: 'Nunito', sans-serif;
+}
+.main-inf-article {
+    color: #34393e;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+}
+.main-inf-title {
+    color: #34393e;
+    padding-bottom: 10px;
+    
+}
+.main-inf-button {
+    background: #3286aa;
+    color: #dce9ef;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin: 25px 40px;
+    
+
+}
+.main-inf-text {
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    color: #34393e;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.main-inf2-button {
+    background: #deefed;
+    color: #3286aa ;
+    border: 3px solid #3286aa;
+    padding: 10px 37px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 5px;
+}
+.main-inf2-article {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main-inf2-text {
+    font-size: 20px;
+    color: #34393e;
+    
+}
+
